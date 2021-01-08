@@ -267,7 +267,15 @@ function expandPerkarray()
 	kPerkMan.BuildPerk(192, 0, "Stun");
 	kPerkMan.m_arrPerks[192].strName[0] = m_perkNames[192];
 	kPerkMan.m_arrPerks[192].strDescription[0] = m_perkDesc[192];
+		
+	kPerkMan.BuildPerk(240, 0, "MuscleDensity");
+	kPerkMan.m_arrPerks[240].strName[0] = m_perkNames[240];
+	kPerkMan.m_arrPerks[240].strDescription[0] = m_perkDesc[240];
 	
+	kPerkMan.BuildPerk(241, 0, "FieldMedic");
+	kPerkMan.m_arrPerks[241].strName[0] = m_perkNames[241];
+	kPerkMan.m_arrPerks[241].strDescription[0] = m_perkDesc[241];	
+		
 	
 	if(kPerkMan != PERKS())
     {
